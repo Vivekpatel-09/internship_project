@@ -1,0 +1,379 @@
+body{ 
+    width: 100% ;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient( 146deg, #40f8f8, #eb57c3 );
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(140deg, #bc972a, #3da9c1 );
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Page{
+    text-align: center;
+    text-decoration: solid;
+}
+#i1{
+    color: black;
+    padding: 5px;
+    transition: all 0.4s;
+}
+#i1:hover{
+    color: blue;
+}
+#i2{
+    color: black;
+    padding: 5px;
+    transition: all 0.4s;
+}
+#i2:hover{
+     color: #3da9c1;
+}
+#i3{
+    color: black;
+    padding: 5px;
+    transition: all 0.4s;
+}
+#i3:hover{
+    color: darkmagenta;
+}
+#i4{
+     color: black;
+     padding: 5px;
+     transition: all 0.4s;
+}
+#i4:hover{
+    color: rgb(21, 163, 179);
+}
+#i5{
+     color: black;
+     padding: 5px;
+     transition: all 0.4s;
+}
+#i5:hover{
+    color: goldenrod;
+}
+#i6{
+    color: black;
+    padding: 5px;
+    transition: all 0.4s;
+}
+#i6:hover{
+    color: red;
+}
+a{
+    padding: 15px;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+.menu:hover{
+    color: black;
+    text-decoration: underline;
+}
+.search{
+    color: white;
+    background: linear-gradient(100deg,#d81832,#000000);
+    transition: all 0.4s ;
+}
+.search:hover{
+    background: linear-gradient(100deg,#b041a3,#40f8f8);
+    color: black;
+}
+#text{
+    
+    font-weight: 900;
+    font-size: small;
+    color: whitesmoke;
+    position: relative;
+    left: 110px;
+    top: 89px;
+    transition: all 0.2s;
+}
+#text:hover{
+    color: red;
+}
+#back{
+    color:  grey;
+    font-family: 'Arial Bold', sans-serif;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.back{
+    padding: 30px 35px 30px;
+    height: 400px;
+    background-image: url("keyboard.jpg");
+    background-size: cover;
+    opacity: 83%;
+}
+#Lorem{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.landing{
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    right: 70px;
+    top: 3px;
+}
+.img{
+    background: linear-gradient(30deg, #bc972a, #3da9c1 );
+   position: relative;
+   right: -40px;
+}
+.space{
+   position: relative;
+   right: 40px;
+   top: 2px;
+}
+#lot{
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(100deg, #d78a16,#b041a3);
+}
+.rocket{
+    border-radius: 60%;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.launch{
+    position: relative;
+    top: -13px;
+    left: 130px;
+}
+.p-launch{
+    position: relative;
+    top: -9px;
+    left: 100px;
+}
+.p--launch{
+    position: relative;
+    top: -20px;
+    left: 100px;    
+}
+.headset{
+    border-radius: 60%;
+    position: relative;
+    top: -120px;
+    left: 450px;
+}
+.headset2{
+    position: relative;
+    top: -163px;
+    left: 480px;
+}
+.p-headset{
+    position: relative;
+    top: -162px;
+    left: 450px;
+}
+.timewatch{
+    border-radius: 60%;
+    position: relative;
+    top: -236px;
+    left: 840px;
+}
+.time{
+    position: relative;
+    top: -279px;
+    left: 875px;
+}
+.p-time{
+    position: relative;
+    top: -280px;
+    left: 840px;
+}
+.p--time{
+    position: relative;
+    top: -290px;
+    left: 842px;
+}
+.about-us{
+    background: linear-gradient(100deg, #d78a16,#b041a3);
+    height: 700px;
+}
+.about{
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+.para{
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+#arrow{
+    position: relative;
+    left: 20px;
+}
+.lp2{
+    position: relative;
+    top: -240px;
+    left: 600px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.lp2:hover{
+    transform: scale(1.02);
+}
+.btn{
+    position: relative;
+    top: 57px;
+    left: 47px;
+    background: linear-gradient(100deg, #fddb27ff,#00b1d2ff);
+    border: 2px solid;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background: linear-gradient(100deg, #eb57c3 ,#3da9c1);
+}
+.office{
+    position: relative;
+    top: -6px;
+    right: 410px;
+    opacity: 80%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.office:hover{
+    transform: scale(1.1);
+}
+
+.dex{
+    position: relative;
+    top: -4px;
+    left: -325px;
+    opacity: 76%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.dex:hover{
+    transform: scale(1.1);
+}
+.outside{
+    position: relative;
+    top: -4px;
+    left: -235px;
+    opacity: 80%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.outside:hover{
+    transform: scale(1.1);
+}
+.meeting{
+    position: relative;
+    top: -158px;
+    left: 948px;
+    opacity: 80%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.meeting:hover{
+    transform: scale(1.1);
+}
+.footer{
+    background:linear-gradient(100deg, #bccccf,#222121);
+    height: 300px;
+}
+.IT-work{
+    position: relative;
+    bottom: 7px;
+    left: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px -1px #000000;
+}
+.UE-div{ 
+    color: white;
+    padding-top: 3px;
+    padding-left: 8px;
+    border-radius: 10px;
+    background-color: grey;
+    height: 23px ;
+    width: 160px;
+    position: relative;
+    bottom: 19px;
+    left: 155px;
+}
+.lady_computer{
+    position: relative;
+    bottom: 187px;
+    left: 470px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px -1px #000000;
+}
+.lady{
+    color: white;
+    padding-top: 3px;
+    padding-left: 8px;
+    border-radius: 10px;
+    background-color: grey;
+    height: 23px ;
+    width: 160px;
+    position: relative;
+    bottom: 200px;
+    left: 555px;
+}
+.img-retina{
+    width: 230px;
+    position: relative;
+    bottom: 367px;
+    left: 870px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px -1px #000000;
+}
+.retina{
+    color: white;
+    padding-top: 3px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: grey;
+    height: 23px ;
+    width: 140px;
+    position: relative;
+    bottom: 380px;
+    left: 965px;
+}
+.contactus{
+    margin-top: 55px;
+}
+#send{
+    width: 80px;
+    height: 20px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    transition: all 0.2s;
+}
+#send:hover{
+    color: black;
+}
+.contact{
+    background: linear-gradient(100deg,#b041a3,#40f8f8);
+}

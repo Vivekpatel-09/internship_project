@@ -1,0 +1,230 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+ul{
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    transition: all 0.2s;
+}
+.nav_link:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.navbar{
+    background: linear-gradient(100deg,#c36ec9,#6cc1c6);
+    height: 100px;
+}
+.text{
+    position: relative;
+    top: 15px;
+    color: rgb(39, 56, 205);
+    transition: all 0.4s;
+}
+.text:hover{
+    transform: scale(1.0);
+    color: black;
+}
+.vivek1{
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    transition: all 0.5s;
+}
+.vivek1:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 4px 7px -2px;
+}
+h1{
+    position: relative;
+    top: -280px;
+    left: 777px;
+}
+#about{
+    background: linear-gradient(100deg, #ffeeaa,#eeaaff);
+    height: 450px;
+}
+.about{
+    position: relative;
+    left: 150px;
+    top: 90px;
+}
+#pre{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    position: relative;
+    top: -295px;
+    left: 700px;
+}
+#name{
+    color: red;
+    transition: all 0.2s;
+}
+#name:hover{
+    color: rgb(16, 23, 237);
+}
+#html-1{
+    color: red;
+}
+#css-1{
+    color: red;
+}
+.icons{
+   display: flex;
+}
+#fb{
+    color: black;
+    position: relative;
+    left: 10px;
+    transition: all 0.3s;
+}
+#fb:hover{
+    transform: scale(2);
+    color: blue;
+}
+#insta{
+    color: black;
+    position: relative;
+    left: 35px;
+    transition: all 0.3s;
+}
+#insta:hover{
+    transform: scale(2);
+    color: rgb(205, 38, 191);
+}
+#x{
+    color: black;
+    position: relative;
+    left: 70px;
+    transition: all 0.3s;
+}
+#x:hover{
+    transform: scale(2);
+    color: black;
+}
+#in{
+    color: black;
+    position: relative;
+    left: 105px;
+    transition: all 0.3s;
+}
+#in:hover{
+    transform: scale(2);
+    color: rgb(13, 193, 238);
+}
+#github{
+    color: black;
+    position: relative;
+    left: 145px;
+    transition: all 0.3s;
+}
+#github:hover{
+    transform: scale(2);
+    color: rgb(22, 20, 23);
+}
+h2{
+    color: black;
+    transition: all 0.2s;
+}
+h2:hover{
+    transform: scale(1.001);
+    color: #f00404;
+}
+#project{
+    margin-top: -12px;
+    background: linear-gradient(100deg, #eeaaff,#48b69a);
+}
+.project_img{
+    padding-left: 20px;
+}
+.download-btn{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    position: relative;
+    top: -12px;
+    transition: all 0.3s;
+}
+.download-btn:hover{
+    color: white;
+    background-color: royalblue;
+}
+#resume{
+    height: 100px;
+    box-shadow: black 0px 0px 1px 1px;
+    background: linear-gradient(100deg,#80D0C7,#48abe4);
+}
+#Resume{
+    color: black;
+    transition: all 0s;
+}
+#Resume:hover{
+    color: black;
+}
+.resume{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    transition: all 0.3s;
+}
+.resume:hover{
+    color: white;
+    background-color: royalblue;
+}
+#Contact{
+    color: black;
+    transition: all 0s;
+}
+#Contact:hover{
+    color: black;
+}
+#contact{
+    height: 150px;
+    box-shadow: black 0px 0px 1px 1px;
+    background: linear-gradient(100deg,#80D0C7,#48abe4);
+}
+.linkedin{
+    text-decoration: none;
+    color: black;
+}
+.email{
+    text-decoration: none;
+    color: black;
+    transition: all,0.4s;
+}
+.email:hover{
+    color: red;
+}
+.footer{
+    text-align: center;
+}
