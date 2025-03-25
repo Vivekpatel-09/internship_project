@@ -1,2 +1,2 @@
-# internship_project
+# Internship_Project
 learn with good practices.
